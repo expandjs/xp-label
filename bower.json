@@ -1,0 +1,21 @@
+{
+  "name": "xp-label",
+  "license": "BSD-3-Clause",
+  "version": "0.8.0",
+  "description": "This component is used to add shadow traverse capabilities on an html label.",
+  "authors": [
+    "Giuliano Rullo <g.rullo@expandjs.com>",
+    "Maurizio Stefàno <m.stefano@expandjs.com>",
+    "Robert Manolea <r.manolea@expandjs.com>"
+  ],
+  "main": [
+    "xp-label.html"
+  ],
+  "keywords": [
+    "web-components"
+  ],
+  "dependencies": {
+    "expandjs": "ExpandJS/expandjs",
+    "polymer": "Polymer/polymer#^0.5"
+  }
+}
