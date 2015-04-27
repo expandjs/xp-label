@@ -1,7 +1,7 @@
 {
   "name": "xp-label",
   "license": "BSD-3-Clause",
-  "version": "0.8.3",
+  "version": "0.8.4",
   "description": "This element is used to add shadow traverse capabilities on an html label.",
   "homepage": "http://www.expandjs.com/elements/xp-label",
   "authors": [
