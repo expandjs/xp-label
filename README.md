@@ -1,3 +1,3 @@
 # xp-label
 
-See the [`documentation page`](http://www.expandjs.com/elements/xp-label) for more information.
+See the [`documentation page`](http://expandjs.com/elements/xp-label) for more information.
