@@ -95,9 +95,9 @@ This element is used to add shadow traverse capabilities on an HTML label.
             /*********************************************************************/
 
             // HANDLER
-            handleClick: function () {
+            handleClick: function (event) {
                 var self = this, input = self.findInput();
-                if (input) { input.focus(); input.click(); }
+                if (input && !event.button) { input.focus(); input.click(); }
             }
         });
     </script>
