@@ -17,8 +17,8 @@ This element is used to add shadow traverse capabilities on an HTML label.
 
 @extends label
 
-@dependency polymer Polymer/polymer
-@dependency expandjs ExpandJS/expandjs
+@dependency polymer Polymer/polymer#^1.0.4
+@dependency expandjs ExpandJS/expandjs#0.9.1
 -->
 
 <link rel="import" href="../polymer/polymer.html">
@@ -58,7 +58,7 @@ This element is used to add shadow traverse capabilities on an HTML label.
 
                 // Vars
                 var self    = this,
-                    input   = self.htmlFor && XP.getElement('html /deep/ #' + self.htmlFor),
+                    input   = self.htmlFor && XP.getElementById(self.htmlFor),
                     wrapped = Polymer.dom(self);
 
                 // Finding
@@ -81,8 +81,10 @@ This element is used to add shadow traverse capabilities on an HTML label.
                  * @attribute focused
                  * @type boolean
                  * @default false
+                 * @notifies
                  */
                 focused: {
+                    notify: true,
                     reflectToAttribute: true,
                     type: Boolean,
                     value: false
