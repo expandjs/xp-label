@@ -124,7 +124,12 @@ It also finds nested tags inside shadowDOM
 
             // HANDLER
             _handleTap: function (event) {
-                var self = this, input = self.findInput();
+
+                // Vars
+                var self  = this,
+                    input = self.findInput();
+
+                // Focusing
                 if (input && !event.detail.sourceEvent.button) { input.focus(); input.click(); }
             }
         });
