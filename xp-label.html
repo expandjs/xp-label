@@ -88,7 +88,7 @@ It also finds nested tags inside shadowDOM
 
             // LISTENERS
             listeners: {
-                click: '_handleClick'
+                'tap': '_handleTap'
             },
 
             // PROPERTIES
@@ -123,9 +123,9 @@ It also finds nested tags inside shadowDOM
             /*********************************************************************/
 
             // HANDLER
-            _handleClick: function (event) {
+            _handleTap: function (event) {
                 var self = this, input = self.findInput();
-                if (input && !event.button) { input.focus(); input.click(); }
+                if (input && !event.detail.sourceEvent.button) { input.focus(); input.click(); }
             }
         });
     </script>
