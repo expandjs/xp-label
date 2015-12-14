@@ -1,3 +1,3 @@
 # xp-label
 
-See the [`documentation page`](http://expandjs.com/elements/xp-label) for more information.
+This repository **is deprecated**. Use [`xp-label-behavior`](https://github.com/expandjs/xp-label-behavior) instead.
